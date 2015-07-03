@@ -14,25 +14,40 @@ var styles = fs.readFileSync(__dirname + '/test.css');
 var Visualization = LightningVisualization.extend({
 
     init: function() {
+        /*
+        // FILL IN Add any logic for initializing the visualization
+        */
         this.render();
     },
 
     /*styles: styles,*/ // optionally pass a string of CSS styles 
 
+    render: function() {
+        /*
+        // FILL IN Render the visualization
+        // FILL IN Get data / selector from this.data and this.selector
+        */
+    },
+
     formatData: function(data) {
+        /*
+        // Format your data from a raw JSON blob
+        */
         return data;
     },
 
     updateData: function(formattedData) {
         this.data = formattedData;
-        // TODO: re-render the visualization
+        /*
+        // FILL IN Re-render your visualization
+        */
     },
 
-    appendData: function(formattedData) {        
-        // TODO: update this.data to include the newly
-        //       added formattedData
-
-        // TODO: re-render the visualization
+    appendData: function(formattedData) {    
+        /*
+        // FILL IN Update this.data to include the newly formatted data
+        // FILL IN Re-render the visualization
+        */    
     }
 
 });
