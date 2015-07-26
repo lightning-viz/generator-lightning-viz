@@ -1,13 +1,14 @@
 'use strict';
 
 var LightningVisualization = require('lightning-visualization');
+var _ = require('lodash');
 
 
 /* 
  * Uncomment this code to require an optional stylesheet
  */
 // var fs = require('fs');
-// var styles = fs.readFileSync(__dirname + '/test.css');
+// var styles = fs.readFileSync(__dirname + '/styles/style.css');
 
 
 /*
