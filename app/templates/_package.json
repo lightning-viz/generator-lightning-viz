@@ -19,6 +19,6 @@
     ]
   },
   "lightning": {
-    "sampleData": []
+    "name": "<%= slugname %>"
   }
 }
