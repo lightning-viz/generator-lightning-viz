@@ -16,9 +16,27 @@ var _ = require('lodash');
  */
 var Visualization = LightningVisualization.extend({
 
+    getDefaultOptions: function() {
+        /*
+         * If the visualization takes options provide sensible
+         * defaults here.
+         */
+        return {
+        };
+    },
+
     init: function() {
         /*
          * FILL IN Add any logic for initializing the visualization
+         *
+         * the following are available:
+         *
+         * this.width - visualization container width
+         * this.height - visualization container height
+         * this.el - visualization container dom node
+         * this.selector - selector to target visualization container dom node
+         * this.data - visualization data (that has been passed through the formatData function)
+         * this.options - options that have been passed to the visualization
          */
         this.render();
     },
